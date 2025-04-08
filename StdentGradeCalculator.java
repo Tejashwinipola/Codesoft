@@ -1,7 +1,6 @@
 import java.util.Scanner;
-
-public class MarksCalculator {
-    public static void main(String[] args) {
+public class Studentgradecalculator {
+	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of subjects: ");
         int numSubjects = scanner.nextInt();
@@ -34,4 +33,5 @@ public class MarksCalculator {
 
         scanner.close();
     }
+
 }
